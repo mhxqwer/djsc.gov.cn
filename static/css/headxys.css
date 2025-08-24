@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.clearfix::after{
+	display: block;
+	content: '';
+	visibility: hidden;
+	clear: both;
+}
+li{
+	list-style: none;
+}
+body{
+    margin:0;
+    min-width:1200px;
+}
+
+.ldgrzy20181128_14wx {
+	font-size: 14px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+a.ldgrzy20181128_14wx {
+	font-size: 14px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+.ldgrzy20181128_16wc {
+	font-size: 16px;
+	line-height: 30px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+a.ldgrzy20181128_16wc {
+	font-size: 16px;
+	line-height: 30px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+  
+.ldgrzy20181128_tou{
+	color: #fff;
+}
+.sousuo20181128zfld {
+	height: 24px;
+	width: 250px;
+	opacity: 0.95;
+	filter: alpha(opacity=50);
+	background: #FFFFFF no-repeat fixed left top;
+	border: none #BF7341;
+	font-size: 14px;
+	line-height: 23px;
+	color: #9e9a9a;
+	text-indent:5px;
+}
+.ldgrzy20181128_16wc a{
+	text-decoration:none;
+}
+.ldgrzy20181128_16wc a:hover{
+	text-decoration:underline ;
+}
+.tit{
+	width: 100%;
+
+}
+.headpc {
+	line-height:16px;
+}
+.headxys{
+	display: none;
+}
+.headxyswrap img{
+	max-width: unset;
+	max-width: auto;
+}
+
+.imgnav {
+  text-align:right;
+  padding:10px 0 0;
+}
+
+.imgnav a {
+  margin: 0 5px;
+  vertical-align: middle;
+  color: #a37a46;
+  font-size: 15px;
+}
+
+.imgnav span {
+  font-size: 15px;
+  color: #a37a46;
+}

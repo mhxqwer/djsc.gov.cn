@@ -1,0 +1,247 @@
+body{background-color: #fff;margin: 0;    font-family: Microsoft Yahei;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+  .foot   *{
+    margin: 0;
+    padding: 0;
+}
+.foot li{
+    list-style: none;
+}
+.foot  .container,.foot .container2{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+  .foot  .clearfix::after,.foot .container2::after{
+    display: block;
+    content:'';
+    visibility: hidden;
+    clear: both;
+}
+
+.foot{
+    width: 100%;
+    padding: 50px  0 15px 0;
+   background: rgb(177, 0, 1) ;
+    font-size: 14px;
+    min-width: 1200px;
+}
+.foot .ftleft{
+    width: 590px;
+}
+.foot .ftleft *,
+.foot .ftleft{
+    font-size:14px;
+}
+.foot .ftmid{
+    width: 255px;
+}
+.foot .ftmid,.foot .ftleft,.foot .ftright{
+    float: left;
+    
+    text-align: left;
+}
+.foot .ftright{
+    float: right;
+}
+.foot .ftleft a{
+    display: inline-block;
+    line-height: 16px;
+    line-height: 16px;
+    font-size: 14px;
+    color: #fff;
+    padding: 0 16px;
+   
+}
+.foot .ftleft .p1 a+a{
+ border-left: 2px solid #fff;
+}
+.foot .ftleft a:first-child{
+    padding-left: 0;
+}
+.foot .ftleft .p1,
+.foot .ftleft .p2,
+.foot .ftleft .p3,
+.foot .ftleft .p4{
+    margin-bottom: 14px;
+    color: #fff;
+}
+.ftmid img{
+    /* margin-top: 20px; */
+    /* margin-left: 25px; */
+    vertical-align: middle;
+}
+.foot .ftmid {
+
+}
+.foot .ftright li{
+    width: 100px;
+    /* height:48px; */
+    line-height: 48px;
+    text-align: center;
+    /* background: #d65352; */
+    float: left;
+    /* padding-left: 35px; */
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.foot .ftright li a,.ftright li{
+    color: #fff;
+    font-size: 16px;
+}
+.foot .ftright li:hover .scindex_ftrwm{
+    display:block;
+}
+.foot .scindex_ftrwm{
+    display:none;
+    position:absolute;
+    left: 0;
+    top: -148px;
+    }
+.foot .scindex_ftrwm img{
+    width: 144px;
+    max-width: unset;
+        position: relative;
+}
+.foot .ftright>div{
+    margin-bottom: 15px;
+}
+.foot .ftright div li{
+    margin-left: 17px;
+}
+.foot .ftright  li img{
+    /* margin-right: 16px; */
+    vertical-align: middle;
+    max-width: 100%;
+    width: 100%;
+}
+.foot .ftleft .p4 a{
+    padding:0;
+}
+.foot .changepcbtn{
+
+}
+.foot .changepcbtn span{
+    color:#fff;
+    display:inline-block;
+    padding:15px 5px 5px 5px;
+    position: relative;
+    display:none;
+}
+.foot .changepcbtn span+span::after{
+    height:20px;
+    content:'|';
+    left: -3px;
+    position: absolute;
+}
+.foot .changepcbtn span.phone.active {
+   /* position: fixed;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    line-height: 90px;
+    left: 0px;
+    bottom: 200px;
+    font-size: 0px;
+    text-align: center;
+    background: url(../images/back_mobile.png) no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;*/
+}
+.foot .changepcbtn span.phone.active {
+    position: fixed;
+    display: inline-block;
+    width: 90px;
+    height: 135px;
+    line-height: 90px;
+    left: 10px;
+    bottom: 200px;
+    font-size: 0px;
+    text-align: center;
+    background-size: 100% auto;
+    box-sizing: border-box;
+}
+.foot .changepcbtn span.phone img{
+    display:none;
+}
+.foot .changepcbtn span.phone.active img{
+    display:block;
+    width: 100%;
+
+}
+/*dy*/
+        #alertbox.alertbox {
+            width: 510px;
+            height: 288px;
+            padding: 27px;
+            border-radius: 10px;
+            background: #fff;
+            text-align: center;
+            box-sizing: border-box;
+            z-index: 999;
+            position: fixed;
+            left: 50%;
+            margin-left: -255px;
+            top: 150px;
+        }
+
+        #alertbox .alerttit {
+            width: 100%;
+            height: 62px;
+            line-height: 62px;
+            border-bottom: 1px solid #bebebe;
+            font-size: 18px;
+            font-weight: bold;
+            color: #cd0000;
+
+        }
+
+        #alertbox button {
+            outline: none;
+            border: none;
+            background: #cd0000;
+            color: #fff;
+            text-align: center;
+            width: 147px;
+            height: 46px;
+            line-height: 46px;
+            font-size: 18px;
+            border-radius: 7px;
+                cursor: pointer;
+        }
+
+        #alertbox .alertnr {
+            line-height: 112px;
+            font-size: 18px;
+        }
+
+        #alertbox .alertclose {
+            position: absolute;
+            color: #cd0000;
+            font-size: 40px;
+            right: 20px;
+            top: 15px;
+            cursor: pointer;
+        }
+       body{
+            position: relative;
+        }
+       .alertyinying {
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, .1);
+            position: absolute;
+            top: 0;
+        }
+        .dzjglg{
+            margin:30px 40px 0 0;
+        }
+ .slhzfwzzc,.dzjglg{
+     float:left;
+ }
+        .slhzfwzzc img{
+            display:block;
+            margin-bottom:20px;
+        }

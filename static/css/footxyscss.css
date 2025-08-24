@@ -1,0 +1,108 @@
+.tpjhd{
+    float:right;
+}
+@media (max-width: 1220px) {
+    .tpjhd {
+        width: 650px;
+        margin:0 auto;
+    }
+    html body{
+         width:100%;
+         min-width:unset;
+     }
+     /*.xxsform .articlebox .artleft,
+     .xxsform .articlebox .artright{
+         width:100%;
+     }
+     #sc{
+         display:none;
+     }*/
+ 
+     body .foot .ftright{
+         /* display:none; */
+     }
+     body .foot .ftleft {
+         width:100%!important;
+         margin-bottom: 20px;
+     }
+     body  .foot .ftleft,
+     html .foot .container, .foot .container2,
+     .foot,
+     .foot .ftmid{
+         /* width:100% !important; */
+         min-width:unset !important;
+         text-align: center  !important;
+     }
+     .foot .container, .foot .container2{
+         width:100%;
+     }
+     html .foot{
+           padding:  25px 0 18px 0;
+           width: 100%;
+     }
+     html .foot .ftleft .p1,  html .foot .ftleft .p2, html  .foot .ftleft .p3, html  .foot .ftleft .p4{
+         margin:0px;
+         line-height: 26px !important;
+     }
+     html .foot .ftleft .p2 span{
+         display: inline-block;
+     }
+     /*.xxsform .zfwjwzcontent .topbox li{
+          width:100%
+     }
+     .xxsform .articlebox::after{
+         display:none;
+     }*/
+     html .foot .ftleft a{
+         padding:0 5px;
+    }
+ }
+ @media (max-width: 510px) {
+     
+    #alertbox.alertbox{
+        max-width:100%;
+        /* left: 0%; */
+        margin-left: -50%;
+        padding: 27px 10px;
+    }
+
+ }
+
+ @media (max-width: 768px) {
+     .foot .ftmid, .foot .ftleft, .foot .ftright{
+         width: 100%;
+         padding: 0 20px;
+         box-sizing: border-box;
+     }
+      .foot .ftright{
+          width: 400px;
+          margin: 0 auto;
+          float:none;
+      }
+      .foot .ftmid{
+          width: 250px;
+          margin: 0 auto;
+          float:none;
+      }
+     .tpjhd{
+         width:100%;
+     }
+ }
+
+@media (max-width:425px){
+    .foot .ftright{
+        width:100%;
+    }
+    .foot .ftmid, .foot .ftleft, .foot .ftright{
+        padding: 0 10px;
+    }
+    .foot .ftright div li{
+        width: 33%;
+        padding: 0 10px;
+        margin: 0;
+        font-size: 14px;];]
+        \;]
+        \\;]
+        \;];
+    }
+}

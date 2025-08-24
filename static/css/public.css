@@ -1,0 +1,131 @@
+@charset "utf-8";
+/*-----------------------------------------------------------------
+文件名称：四川省人民政府（2011年无障碍改造）-全站公用样式
+文件作者：Scorpio
+编辑日期：2011/11/29
+文件说明：全站公用样式文件
+-----------------------------------------------------------------*/
+html body {
+font-family:"微软雅黑";
+    font-family: Microsoft Yahei;
+}
+*{
+	text-justify: distribute-all-lines;
+}
+div, ul, li, a, img, dl, dd, dt, h1, h2, h3, h4, h5, h6, h7, p, span.form { margin:0; padding:0; border:0; }
+body { font-size:12px; background-color:#CCCCCC; line-height:18px; text-align:center; margin:0; padding:0; font-family:"微软雅黑"; }
+li { list-style:none; }
+img { display:initial;}
+a:link { color:#000; text-decoration:none; }
+a:visited { color:#000; text-decoration:none; }
+a:hover { color:#F00; text-decoration:underline; }
+div#skip { width:0px; height:0px; overflow:hidden; }
+div.clearboth { clear:both; font-size:0; line-height:0; height:0; }
+#newImg{
+width:0px;
+height:0px;
+}
+ 
+@charset "utf-8";
+.share-icon{
+    background-image: url(../images/scs_fxicon.png);
+    width: 24px;
+    height: 24px;
+    display: block;
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.share-box{
+    float: right;
+    margin-left: 10px;
+}
+
+.share-box a.gwds_weixin {
+       background-image: url(../images/scs_weixicon.png);
+    float: left;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    cursor: pointer;
+}
+.share-box a.gwds_tsina{
+        background-image: url(../images/scs_weiboicon.png);
+    float: left;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*文章*/
+#tblArticleLink span.xgid{
+   display:none;
+}
+
+/*dy*/
+        #alertbox.alertbox {
+            width: 510px;
+            height: 288px;
+            padding: 27px;
+            border-radius: 10px;
+            background: #fff;
+            text-align: center;
+            box-sizing: border-box;
+            z-index: 999;
+            position: absolute;
+            left: 50%;
+            margin-left: -255px;
+            top: 150px;
+        }
+
+        #alertbox .alerttit {
+            width: 100%;
+            height: 62px;
+            line-height: 62px;
+            border-bottom: 1px solid #bebebe;
+            font-size: 18px;
+            font-weight: bold;
+            color: #cd0000;
+
+        }
+
+        #alertbox button {
+            outline: none;
+            border: none;
+            background: #cd0000;
+            color: #fff;
+            text-align: center;
+            width: 147px;
+            height: 46px;
+            line-height: 46px;
+            font-size: 18px;
+            border-radius: 7px;
+                cursor: pointer;
+        }
+
+        #alertbox .alertnr {
+            line-height: 112px;
+            font-size: 18px;
+        }
+
+        #alertbox .alertclose {
+            position: absolute;
+            color: #cd0000;
+            font-size: 40px;
+            right: 20px;
+            top: 15px;
+            cursor: pointer;
+        }
+       body.gjwzbody{
+            position: relative;
+        }
+       .alertyinying {
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, .1);
+            position: absolute;
+            top: 0;
+        }

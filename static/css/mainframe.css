@@ -1,0 +1,64 @@
+﻿@charset "utf-8";
+/*-----------------------------------------------------------------
+文件名称：四川省人民政府（2012年无障碍改造）-主风格框架样式
+文件作者：Keith
+编辑日期：2012/12/10
+文件说明：主风格框架样式文件
+-----------------------------------------------------------------*/
+
+div#container { margin:0 auto;border-left: 5px solid #ffffff;border-right: 5px solid #ffffff; text-align:left; width:990px;background:#FFFFFF;}
+/*头部区域
+---------------------------------------------*/
+div#header { float:left; width:100%;  overflow:hidden; }
+div#header div#banner { width:100%; height:auto; background:url(../images/banner.jpg) no-repeat; }
+/*-- 快速链接 --*/
+ul#quicklink { float:left; padding:7px 4px 6px 7px; }
+#quicklink2{
+	margin:0;
+	float:left;
+	padding:7px;
+	}
+ul#quicklink li { float:left; padding:0px 4px 0px 2px; font-weight:bold; white-space:nowrap; }
+ul#quicklink li a:link { color:#000; text-decoration:none; }
+ul#quicklink li a:visited { color:#000; text-decoration:none; }
+ul#quicklink li a:hover { color:#b90b07; text-decoration:underline; }
+
+#quicklink2 li{
+	float:left;	
+	padding-left:12px;
+	padding-right:4px;
+	white-space:nowrap;
+	}	
+/*-- 登陆框 --*/
+form#f1 { float:left; width:335px; margin-top:5px; padding-left:20px;display:inline;  }
+form#f1 * { float:left; }
+form#f1 label { line-height:22px; }
+form#f1 input#name, form#f1 input#passwd { width:80px; height:16px; margin-right:5px; }
+form#f1 .botton_1 { height:22px; font-weight:bold; }
+/*-- 搜索框 --*/
+form#Form1 { float:left; margin-top:5px;display:inline;  }
+form#Form1 * { float:left; }
+form#Form1 label { line-height:22px; }
+form#Form1 input#Keyword { width:80px; height:16px; margin-right:10px; }
+form#Form1 input#subBut { height:22px; font-weight:bold; }
+/*-- 日期 --*/
+div#header span#date { display:block; float:right; padding:8px 10px 5px 7px; color:#626262; }
+#mainnav { float:left; background:url(../images/mainnav_bg.jpg); line-height:34px; width:990px; margin-top:7px; }
+#mainnav ul { float:left; background:url(../images/20100602wj_scgk_11.jpg); line-height:34px; width:990px; background-repeat:no-repeat; background-position:right; }
+#mainnav li { float:left; background:url(../images/20100602wj_scgk_14.jpg); background-position:left; background-repeat:no-repeat; width:100px; padding-left:2px; text-align:center; font-size:14px; }
+#mainnav li a { color:#59503e }
+#mainnav li.firstNav { background:url(../images/20100602wj_scgk_08.jpg); background-repeat:no-repeat; width:68px; letter-spacing:6px; }
+#main { float:left; width:990px; padding-bottom:8px; }
+/*footer*/
+#footer { clear:both; border-top:15px solid #CC0001; text-align:center; background:url(../images/20100602wj_scgk_121.jpg) right bottom no-repeat #F2F2F2;; width:990px; padding-bottom:8px; padding-top:4px; }
+#footer p { line-height:19px; clear:both; }
+#footer p.footer_p1 { color:#BD3713; }
+#footer dl { display:inline; }
+#footer dl * { padding:0px 1px 0px 3px; display:inline; }
+#footer dl dd { background:url(../images/line.jpg) left no-repeat; }
+#footer dl dd.fistdd { background:none; padding:0px; }
+#footer dl a:link { color:#000; }
+#footer dl a:visited { color:#000; }
+#footer dl a:hover { color:#b90b07; }
+#footer p.footer_p4 { font-weight:bold; }
+#footer p.footer_p4 span { color:#FF0000; }
